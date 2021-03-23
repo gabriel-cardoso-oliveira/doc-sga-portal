@@ -82,7 +82,7 @@ const Hero = ({
                     tag="a"
                     color="dark"
                     wideMobile
-                    href="https://nodejs.org/dist/v14.16.0/win-x64/"
+                    href="https://nodejs.org/dist/v14.16.0/"
                     target="_blank"
                   >
                     Download Programas

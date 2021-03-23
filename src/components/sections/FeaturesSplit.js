@@ -106,7 +106,13 @@ const FeaturesSplit = ({
                   Instalando o Node.js
                 </h3>
                 <p className="m-0">
-                  No inicío da página, clique no botão "Download Programas" para baixar o instalador do Node.js. Ao finalizar o download, execute o instalador e vai seguindo as próximas etapas até finalizar a instalação do Node.js.
+                  - No inicío da página, clique no botão "Download Programas" para baixar o instalador do Node.js;
+                </p>
+                <p className="m-0">
+                  - Na página que abrir, clique no link "node-v14.16.0-x64.msi" ou "node-v14.16.0-x86.msi"(conforme a versão do Windows);
+                </p>
+                <p className="m-0">
+                  - Ao finalizar o download, execute o instalador e vai seguindo as próximas etapas até finalizar a instalação do Node.js.
                 </p>
               </div>
               <div className={
@@ -116,7 +122,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/dependencias02.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -126,14 +132,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  1.2 Ambiente
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Instalação do PM2
+                </h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(
