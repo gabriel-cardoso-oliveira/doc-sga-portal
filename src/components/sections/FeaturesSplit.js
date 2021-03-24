@@ -106,10 +106,10 @@ const FeaturesSplit = ({
                   Instalando o Node.js
                 </h3>
                 <p className="m-0">
-                  - No inicío da página, clique no botão "Download Programas" para baixar o instalador do Node.js;
+                  - No início da página, clique no botão "<strong>Download Programas</strong>" para baixar o instalador do Node.js;
                 </p>
                 <p className="m-0">
-                  - Na página que abrir, clique no link "node-v14.16.0-x64.msi" ou "node-v14.16.0-x86.msi"(conforme a versão do Windows);
+                  - Na página que abrir, clique no link "<strong>node-v14.16.0-x64.msi</strong>" ou "<strong>node-v14.16.0-x86.msi</strong>"(conforme a versão do Windows);
                 </p>
                 <p className="m-0">
                   - Ao finalizar o download, execute o instalador e vai seguindo as próximas etapas até finalizar a instalação do Node.js.
@@ -135,13 +135,13 @@ const FeaturesSplit = ({
                   1.2 Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Instalação do PM2
+                  Instalando do PM2
                 </h3>
                 <p className="m-0">
-                  - Abra o terminal "Node.js command prompt";
+                  - Abra o terminal "<strong>Node.js command prompt</strong>";
                 </p>
                 <p className="m-0">
-                  - Com o terminal aberto, execute o comando "npm install pm2 -g";
+                  - Com o terminal aberto, execute o comando "<strong>npm install pm2 -g</strong>";
                 </p>
               </div>
               <div className={
@@ -152,6 +152,38 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/dependencias03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2. Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Baixando e Configurando Arquivos
+                </h3>
+                <p className="m-0">
+                  - No início da página, clique no botão "<strong>Download Arquivos</strong>", para baixar o executável do SGA Portal;
+                </p>
+                <p className="m-0">
+                  - No Explorador de Arquivos do Windows, acessa o caminho "<strong>C:\</strong>" e cria uma pasta com o nome "<strong>digital</strong>", caso não exista;
+                </p>
+                <p className="m-0">
+                  - Depois que finalizar o download do executável "<strong>PortalSGA</strong>", mova-o para dentro da pasta "<strong>digital</strong>", que acabamos de criar (<strong>C:\digital</strong>).
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias04.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
