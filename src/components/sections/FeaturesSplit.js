@@ -257,6 +257,41 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.3 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Adicionando Variável de Ambiente
+                </h3>
+                <p className="m-0">
+                  - Abra as configurações do Windows. No tela que abrir clique no menu "<strong>Sistema</strong>";
+                </p>
+                <p className="m-0">
+                  - No menu lateral, clique na opção "<strong>Sobre</strong>", em seguida clique na opção "<strong>Configurações avançadas do sistema</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, clique no botão "<strong>Variáveis de Ambiente</strong>, em seguida vai abrir outra tela, no menu "<strong>Variáveis do sistema</strong>", procure pela variável "<strong>Path</strong>", selecionea e clique em editar;
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, no menu lateral clique no botão "<strong>Novo</strong>", no campo que abrir, cole este caminho "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\php\php</strong>" (sem as aspas), e em seguida clique em "<strong>Ok</strong>" até fecha todas as telas.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias07.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
