@@ -190,6 +190,41 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Instalando SGA Portal
+                </h3>
+                <p className="m-0">
+                  - Dentro da pasta "<strong>C:\digital</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o arquivo "<strong>PortalSGA</strong>". Se aparecer uma chanela da "<strong>Microsoft defender</strong>", clique em "<strong>Mais informações</strong>" e clique no botão "<strong>Executar assim mesmo</strong>";
+                </p>
+                <p className="m-0">
+                  - Na chanela que abrir, clique no botão "<strong>Extract</strong>" e aguarde a finalização;
+                </p>
+                <p className="m-0">
+                  - Ao finalizar a extração, altere o nome da pasta "<strong>PortalSGA</strong>" para "<strong>data</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias05.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
