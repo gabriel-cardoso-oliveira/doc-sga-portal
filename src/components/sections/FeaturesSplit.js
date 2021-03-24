@@ -225,6 +225,38 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.2 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Instalando Dependências da API
+                </h3>
+                <p className="m-0">
+                  - Abra o terminal "<strong>Node.js command prompt</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o comando "<strong>cd C:\digital\data\EasyPHP-Devserver-17\eds-www\api_relatorios</strong>" para acessar a pasta "<strong>api_relatorios</strong>";
+                </p>
+                <p className="m-0">
+                  - Agora execute o seguinte comando "<strong>npm install</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias06.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
