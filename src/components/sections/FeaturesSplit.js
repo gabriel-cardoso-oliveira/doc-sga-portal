@@ -138,7 +138,10 @@ const FeaturesSplit = ({
                   Instalação do PM2
                 </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  - Abra o terminal "Node.js command prompt";
+                </p>
+                <p className="m-0">
+                  - Com o terminal aberto, execute o comando "npm install pm2 -g";
                 </p>
               </div>
               <div className={
@@ -148,7 +151,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/dependencias03.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
