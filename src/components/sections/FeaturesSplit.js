@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Configurando o ambiente',
-    // paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Se deparar com algum erro, verifique no modulo "Erros mais comuns" se esse erro já possui uma possível solução.'
   };
 
   return (
@@ -307,7 +307,39 @@ const FeaturesSplit = ({
                   - Edita o arquivo "<strong>url_api_relatorios.json</strong>";
                 </p>
                 <p className="m-0">
-                  - Altere o endereço "<strong>127.0.0.1</strong>" para "<strong>IPv4</strong>" e salve o arquivo.
+                  - Altere o endereço "<strong>127.0.0.1</strong>" para o endereço "<strong>IPv4</strong>" (o endereço IPv4 é obtido abrindo o CMD e executando o comando "<strong>ipconfig</strong>") e salve o arquivo.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias08.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  3. Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Executando API Node.js
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\socket</strong>";
+                </p>
+                <p className="m-0">
+                  - Edita o arquivo "<strong>url_api_relatorios.json</strong>";
+                </p>
+                <p className="m-0">
+                  - Altere o endereço "<strong>127.0.0.1</strong>" para o endereço "<strong>IPv4</strong>" (o endereço IPv4 é obtido abrindo o CMD e executando o comando "<strong>ipconfig</strong>") e salve o arquivo.
                 </p>
               </div>
               <div className={
