@@ -148,6 +148,54 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Soket não inicializado
+                </h3>
+                <p className="m-0">
+                  Se a "<strong>Socket</strong>" não for listada ao executar o comando "<strong>pm2 list</strong>" no "<strong>CMD</strong>".
+                </p>
+                <br/>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\socket</strong>";
+                </p>
+                <p className="m-0">
+                  - Edite o bat "<strong>service.bat</strong>";
+                </p>
+                <p className="m-0">
+                  - Na linha 2, altere o caminho da pasta "<strong>socket</strong>" para "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\socket</strong>", salve e feche o arquivo;
+                </p>
+                <p className="m-0">
+                  - Execute o bat "<strong>service.bat</strong>" novamente;
+                </p>
+                <p className="m-0">
+                  - Ao finalizar, abra o "<strong>CMD</strong>" e execute o comando "<strong>pm2 list</strong>";
+                </p>
+                <p className="m-0">
+                  - Se listar "<strong>Socket</strong>" com o status "<strong>online</strong>", o socket foi inializado com sucesso;
+                </p>
+                <p className="m-0">
+                  - Todas as vezes que iniciar o PC, o socket já vai inicializar automaticamente.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/erro03.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

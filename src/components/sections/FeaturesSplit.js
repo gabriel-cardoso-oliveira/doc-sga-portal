@@ -371,6 +371,47 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  3.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Executando Socket
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\socket</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o bat "<strong>service.bat</strong>";
+                </p>
+                <p className="m-0">
+                  - Ao finalizar, abra o "<strong>CMD</strong>" e execute o comando "<strong>pm2 list</strong>";
+                </p>
+                <p className="m-0">
+                  - Se listar "<strong>Socket</strong>" com o status "<strong>online</strong>", o socket foi inializado com sucesso;
+                </p>
+                <p className="m-0">
+                  - Todas as vezes que iniciar o PC, o socket já vai inicializar automaticamente.
+                </p><br/>
+                <p className="m-0">
+                  <strong>Obs:</strong> Se a "<strong>Socket</strong>" não for listada ao executar o comando "<strong>pm2 list</strong>" no "<strong>CMD</strong>", vai até o modulo "Erros mais comuns".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias10.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
