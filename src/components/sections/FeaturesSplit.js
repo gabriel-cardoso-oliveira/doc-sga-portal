@@ -143,6 +143,12 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   - Com o terminal aberto, execute o comando "<strong>npm install pm2 -g</strong>";
                 </p>
+                <p className="m-0">
+                  - Ao finalizar execute este outro comando "<strong>npm install pm2-windows-startup -g</strong>";
+                </p>
+                <p className="m-0">
+                  - Por fim ao finalizar execute o comando "<strong>pm2-startup install</strong>".
+                </p>
               </div>
               <div className={
                 classNames(
@@ -333,13 +339,22 @@ const FeaturesSplit = ({
                   Executando API Node.js
                 </h3>
                 <p className="m-0">
-                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\socket</strong>";
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-www\api\bats</strong>";
                 </p>
                 <p className="m-0">
-                  - Edita o arquivo "<strong>url_api_relatorios.json</strong>";
+                  - Execute o bat "<strong>iniciar_api_node.bat</strong>";
                 </p>
                 <p className="m-0">
-                  - Altere o endereço "<strong>127.0.0.1</strong>" para o endereço "<strong>IPv4</strong>" (o endereço IPv4 é obtido abrindo o CMD e executando o comando "<strong>ipconfig</strong>") e salve o arquivo.
+                  - Ao finalizar, abra o "<strong>CMD</strong>" e execute o comando "<strong>pm2 list</strong>";
+                </p>
+                <p className="m-0">
+                  - Se listar "<strong>ApiNode</strong>" com o status "<strong>online</strong>", a API Node foi inializada com sucesso;
+                </p>
+                <p className="m-0">
+                  - Todas as vezes que iniciar o PC, a API Node já vai inicializar automaticamente.
+                </p><br/>
+                <p className="m-0">
+                  <strong>Obs:</strong> Se a "<strong>ApiNode</strong>" não for listada ao executar o comando "<strong>pm2 list</strong>" no "<strong>CMD</strong>", vai até o modulo "Erros mais comuns".
                 </p>
               </div>
               <div className={
@@ -349,7 +364,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/dependencias08.png')}
+                  src={require('./../../assets/images/dependencias09.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
