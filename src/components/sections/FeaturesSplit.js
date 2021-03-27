@@ -179,7 +179,10 @@ const FeaturesSplit = ({
                   - No Explorador de Arquivos do Windows, acessa o caminho "<strong>C:\</strong>" e cria uma pasta com o nome "<strong>digital</strong>", caso não exista;
                 </p>
                 <p className="m-0">
-                  - Depois que finalizar o download do executável "<strong>PortalSGA</strong>", mova-o para dentro da pasta "<strong>digital</strong>", que acabamos de criar (<strong>C:\digital</strong>).
+                  - E dentro da pasta "<strong>digital</strong>" cria outra pasta com o nome "<strong>data</strong>";
+                </p>
+                <p className="m-0">
+                  - Depois que finalizar o download do executável "<strong>PortalSGA</strong>", mova-o para dentro da pasta "<strong>C:\digital\data</strong>", que acabamos de criar.
                 </p>
               </div>
               <div className={
@@ -205,17 +208,17 @@ const FeaturesSplit = ({
                   Instalando SGA Portal
                 </h3>
                 <p className="m-0">
-                  - Dentro da pasta "<strong>C:\digital</strong>";
+                  - Dentro da pasta "<strong>C:\digital\data</strong>";
                 </p>
                 <p className="m-0">
                   - Execute o arquivo "<strong>PortalSGA</strong>". Se aparecer uma chanela da "<strong>Microsoft defender</strong>", clique em "<strong>Mais informações</strong>" e clique no botão "<strong>Executar assim mesmo</strong>";
                 </p>
                 <p className="m-0">
-                  - Na chanela que abrir, clique no botão "<strong>Extract</strong>" e aguarde a finalização;
+                  - Na chanela que abrir, clique no botão "<strong>Extract</strong>" e aguarde a finalização.
                 </p>
-                <p className="m-0">
+                {/* <p className="m-0">
                   - Ao finalizar a extração, altere o nome da pasta "<strong>PortalSGA</strong>" para "<strong>data</strong>".
-                </p>
+                </p> */}
               </div>
               <div className={
                 classNames(
@@ -235,6 +238,218 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   2.2 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Instalando EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o arquivo "<strong>EasyPHP-Devserver-17.0-setup.exe</strong>", na tela que abrir escolha a linguagem;
+                </p>
+                <p className="m-0">
+                  - Na tela seguinte, troca o local de instalação para "<strong>C:\digital\data\</strong>";
+                </p>
+                <p className="m-0">
+                  - Depois que escolher o caminho da instalação, vai seguindo as próximas etapas até finalizar a instalação do EasyPHP-Devserver-17.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias11.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.3 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Fechando o EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Se você não "<strong>desmarcou</strong>" a opção de iniciar o EasyPHP-Devserver-17 no final da instalação;
+                </p>
+                <p className="m-0">
+                  - Na barra de tarefas, clique com botão direito do mouse sobre o ícone do EasyPHP-Devserver-17;
+                </p>
+                <p className="m-0">
+                  - No menu que abrir, clique no botão "<strong>Exit</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias12.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.4 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alterando pasta data do EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>" e copie a pasta "<strong>data</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\dbserver\mysql5717x86x[<i>números que está na sua pasta</i>]</strong>" apague pasta "<strong>data</strong>" e "<strong>cole</strong>" a pasta "<strong>data</strong>" que copiamos anteriomente.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias13.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.5 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alterando pasta eds-www do EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>" e copie a pasta "<strong>eds-www</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17</strong>" apague pasta "<strong>eds-www</strong>" e "<strong>cole</strong>" a pasta "<strong>eds-www</strong>" que copiamos anteriomente.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias14.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.6 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alterando o arquivo eds.ini do EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>" e copie o arquivo "<strong>eds.ini</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17</strong>" e substitua o arquivo "<strong>eds.ini</strong>" no destino.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias15.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.7 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alterando o arquivo httpd.conf do EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>" e copie o arquivo "<strong>httpd.conf</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\httpdserver\apache2425vc11x86x[<i>números que está na sua pasta</i>]\conf</strong>" e substitua o arquivo "<strong>httpd.conf</strong>" no destino.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias16.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2.8 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Alterando o arquivo php.ini do EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\PortalSGA</strong>" e copie o arquivo "<strong>php.ini</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\php\php5630vc11x86x[<i>números que está na sua pasta</i>]</strong>" e substitua o arquivo "<strong>php.ini</strong>" no destino.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias17.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  3. Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
                   Instalando Dependências da API
@@ -266,7 +481,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  2.3 Ambiente
+                  4. Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
                   Adicionando Variável de Ambiente
@@ -281,7 +496,7 @@ const FeaturesSplit = ({
                   - Na tela que abrir, clique no botão "<strong>Variáveis de Ambiente</strong>, em seguida vai abrir outra tela, no menu "<strong>Variáveis do sistema</strong>", procure pela variável "<strong>Path</strong>", selecionea e clique em editar;
                 </p>
                 <p className="m-0">
-                  - Na tela que abrir, no menu lateral clique no botão "<strong>Novo</strong>", no campo que abrir, cole este caminho "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\php\php5630vc11x86x190503172401</strong>" (sem as aspas), e em seguida clique em "<strong>Ok</strong>" até fecha todas as telas.
+                  - Na tela que abrir, no menu lateral clique no botão "<strong>Novo</strong>", no campo que abrir, cole este caminho da pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\php\php5630vc11x86x[<i>números que está na sua pasta</i>]</strong>", e em seguida clique em "<strong>Ok</strong>" até fecha todas as telas.
                 </p>
               </div>
               <div className={
@@ -301,7 +516,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  2.4 Ambiente
+                  5. Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
                   Configurando IP da API
@@ -333,7 +548,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  3. Ambiente
+                  6. Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
                   Executando API Node.js
@@ -374,7 +589,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  3.1 Ambiente
+                  6.1 Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
                   Executando Socket
