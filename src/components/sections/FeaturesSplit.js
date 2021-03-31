@@ -627,6 +627,44 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  7. Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Iniciando o EasyPHP-Devserver-17
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o arquivo "<strong>run-devserver.exe</strong>";
+                </p>
+                <p className="m-0">
+                  - Quando "<strong>Devserver</strong>" é iniciado, um ícone aparece na Área de Notificação (ao lado do relógio) - se você não vê o ícone, clique em "<strong>Show hidden iconse</strong>" mova o ícone ao lado do relógio;
+                </p>
+                <p className="m-0">
+                  - Clique com o botão direito / esquerdo do mouse, vai abrir o menu do "<strong>Devserver</strong>";
+                </p>
+                <p className="m-0">
+                  - Clique em "<strong>Open Dashboard</strong>" e vai abrir o "<strong>Dashboard</strong>" do EasyPHP-Devserver-17.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias18.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
