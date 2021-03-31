@@ -703,6 +703,39 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  7.2 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Iniciando o MySQL
+                </h3>
+                <p className="m-0">
+                  - Na página inicial da "<strong>Dashboard</strong>" do EasyPHP-Devserver-17;
+                </p>
+                <p className="m-0">
+                  - Clique no botão "<strong>Start</strong>" do "<strong>DATABASE SERVER</strong>".
+                </p>
+                <br/>
+                <p className="m-0">
+                  <strong>Obs:</strong> Se o "<strong>APACHE</strong>" ou o "<strong>MYSQL</strong>" não iniciar, vai até o modulo "Erros mais comuns".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias20.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
