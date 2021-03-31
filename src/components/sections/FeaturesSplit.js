@@ -665,6 +665,44 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  7.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Configurando o Apache
+                </h3>
+                <p className="m-0">
+                  - No "<strong>Dashboard</strong>" do EasyPHP-Devserver-17 (que abrimos no passo anterior);
+                </p>
+                <p className="m-0">
+                  - Clique no segundo botão (que tem o ícone de uma engrenagem) do "<strong>HTTP SERVER</strong>";
+                </p>
+                <p className="m-0">
+                  - No <i>select</i> do "<strong>PHP version</strong>" deixa selecionado a versão "<strong>5.6.30 x86</strong>";
+                </p>
+                <p className="m-0">
+                  - Já no <i>select</i> da "<strong>Port</strong>", seleciona a porta "<strong>8000</strong>";
+                </p>
+                <p className="m-0">
+                  - Por fim, clique em "<strong>Start</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias19.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
