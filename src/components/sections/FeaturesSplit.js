@@ -863,7 +863,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  9. Sistema
+                  9.1 Sistema
                 </div>
                 <h3 className="mt-0 mb-12">
                   Abrindo o SGA Portal
@@ -889,6 +889,41 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/dependencias24.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  10. Sistema
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Configurando o caminho do MySQL
+                </h3>
+                <p className="m-0">
+                  - No menu lateral esquerdo, clique em "<strong>Configurações</strong>";
+                </p>
+                <p className="m-0">
+                  - Clique na aba "<strong>Centralização</strong>";
+                </p>
+                <p className="m-0">
+                  - Acesse a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\httpdserver\apache2425vc11x86x[<i>números que está na sua pasta</i>]\bin</strong>";
+                </p>
+                <p className="m-0">
+                  - Copie o "<strong>endereço</strong>" da pasta e cole no campo, em seguida clique em salvar (como no exemplo).
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias25.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
