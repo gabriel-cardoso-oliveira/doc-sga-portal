@@ -736,6 +736,65 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  8. Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Ativando serviços na inicialização
+                </h3>
+                <p className="m-0">
+                  - No Explorador de arquivos, clique na aba "<strong>Exibir</strong>" em seguida ative o checkbox "<strong>Itens ocultos</strong>";
+                </p>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17</strong>";
+                </p>
+                <p className="m-0">
+                  - Edita o arquivo "<strong>run-devserver.ini</strong>";
+                </p>
+                <p className="m-0">
+                  - No modulo "<strong>[StartupAction]</strong>", depois da segunda linha, adicione as seguintes linhas;
+                </p>
+                <br/>
+                <p className="m-0">
+                  <strong>
+                    <code style={{
+                      overflow: 'auto',
+                      backgroundColor: '#33363A',
+                      height: 100,
+                      display: 'block',
+                      whiteSpace: 'pre',
+                      textAlign: 'left',
+                      wordWrap: 'break-word',
+                      borderRadius: 8,
+                      padding: 10
+                    }}
+                    >
+                      Action: run; FileName: "eds-dashboard/eds-dashboard.exe"; WorkingDir: "eds-dashboard"; Parameters: " servers_start.php allservers"; ShowCmd: hidden; Flags: waituntilterminated;
+                      <br/>Action: shellexecute; FileName: "http://127.0.0.1:8000/portal"
+                    </code>
+                  </strong>
+                </p>
+                <br/>
+                <p className="m-0">
+                  - Depois de ter adicionado as duas linhas acima no arquivo "<strong>run-devserver.ini</strong>", salve as alterações e feche-o.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias21.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
