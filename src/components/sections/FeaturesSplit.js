@@ -831,6 +831,70 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  9. Sistema
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Sincronizando o banco de dados
+                </h3>
+                <p className="m-0">
+                  - Abra o navegador e acessa a URL "<strong>http://localhost:8000/api</strong>";
+                </p>
+                <p className="m-0">
+                  - Clique em cada "<strong>link</strong>", de cima para baixo (espere cada um terminar o seu porcesso para clicar no próximo).
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias23.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  9. Sistema
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Abrindo o SGA Portal
+                </h3>
+                <p className="m-0">
+                  - Ainda no navegador e acessa a URL "<strong>http://localhost:8000/portal</strong>";
+                </p>
+                <p className="m-0">
+                  - Faça o login no portal com o usuário e senha.
+                </p>
+                <p className="m-0">
+                  <strong>Usuário:</strong> <code>ti@campotv.com.br</code>
+                </p>
+                <p className="m-0">
+                  <strong>Senha:</strong> <code>sic.adm00</code>
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias24.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
