@@ -795,6 +795,42 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  8.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Configurando EasyPHP na inicialização
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17</strong>";
+                </p>
+                <p className="m-0">
+                  - Crie um atalho do executável "<strong>run-devserver.exe</strong>" (selecione o executável e clique com o botão direito do mouse, em seguida clique na opção "Criar atalho");
+                </p>
+                <p className="m-0">
+                  - Mova esse "Atalho" para a pasta "<strong>inicializar</strong>" do Windows.
+                </p>
+                <br/>
+                <p className="m-0">
+                  <strong>Obs:</strong> Para acessar a pasta "<strong>inicializar</strong>" do Windows. Na barra de endereço da pasta, digite "<strong>inicializar</strong>" e tecle "<strong>Enter</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias22.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
