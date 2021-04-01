@@ -196,6 +196,52 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  3. Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  PM2 connect - ERROR 4048
+                </h3>
+                <br/>
+                <p className="m-0">
+                  - Esse erro acontece quando digita algum comando do PM2.
+                </p>
+                <br/>
+                <p className="m-0">
+                  - Abra o terminal "<strong>Node.js command prompt</strong>";
+                </p>
+                <p className="m-0">
+                  - Com o terminal aberto, execute o comando "<strong>npm rm pm2 -g</strong>";
+                </p>
+                <p className="m-0">
+                  - Depois instala novamente executando o comando "<strong>npm install pm2 -g</strong>";
+                </p>
+                <p className="m-0">
+                  - Ao finalizar execute este outro comando "<strong>npm install pm2-windows-startup -g</strong>";
+                </p>
+                <p className="m-0">
+                  - Por fim ao finalizar execute o comando "<strong>pm2-startup install</strong>";
+                </p>
+                <p className="m-0">
+                  - Depois que executar todos os comandos acima, feche tudo que estiver aberto e reinicie o PC.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/erro04.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
