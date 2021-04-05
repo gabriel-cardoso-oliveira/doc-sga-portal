@@ -104,6 +104,38 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  2. Sistema
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Adicionando Marca
+                </h3>
+                <p className="m-0">
+                  - Abra o SGA Portal, faça o login e em seguida no menu lateral clique na opção "<strong>Marcas</strong>";
+                </p>
+                <p className="m-0">
+                  - Em seguida clique no botão "<strong>Adicionar Marca</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, digite a marca desejada e clique em "<strong>Salvar</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao02.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
