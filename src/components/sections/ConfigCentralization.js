@@ -136,6 +136,41 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  3. Sistema
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Adicionando Unidade
+                </h3>
+                <p className="m-0">
+                  - Abra o SGA Portal, no menu lateral clique na opção "<strong>Unidades</strong>";
+                </p>
+                <p className="m-0">
+                  - Em seguida clique no botão "<strong>Adicionar Unidades</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, preenche os campos "<strong>Nome da Unidade</strong>", "<strong>Hostname ou IP</strong>" e "<strong>Marcas</strong>";
+                </p>
+                <p className="m-0">
+                  - Em seguida clique em "<strong>Adicionar</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao03.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
