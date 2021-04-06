@@ -203,6 +203,136 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  4. SGA Administrativo
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Ativando SGA Portal
+                </h3>
+                <p className="m-0">
+                  - Acesse a área "<strong>administrativa do SGA</strong>" da unidade que foi cadastrada no SGA Portal;
+                </p>
+                <p className="m-0">
+                  - Acesse o menu "<strong>Redes</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, clique no botão "<strong>SGA Portal</strong>";
+                </p>
+                <p className="m-0">
+                  - Clique no botão "<strong>Cadastrar</strong>";
+                </p>
+                <p className="m-0">
+                  - Preenche os campos "<strong>Cadastrar</strong>";
+                </p>
+                <p className="m-0">
+                  - Em seguida clique em "<strong>Salvar</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao04.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  4.1 Ambiente SGA
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Configurando a zincronização
+                </h3>
+                <p className="m-0">
+                  - Clique <strong><a href="https://drive.google.com/file/d/1vdlH-6467C87bD2r9QVsSfsYZWLKDQbi/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download dos arquivos de importação das configurações de sincronização;
+                </p>
+                <p className="m-0">
+                  - Na Área de Notificação (ao lado do relógio) - se você não vê o ícone, clique em "<strong>Show hidden iconse</strong>" mova o ícone ao lado do relógio e clique com o botão direito / esquerdo do mouse no ícone do "<strong>System Scheduler</strong>" (<code>ícone de um relógio</code>);
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, no menu superior, clique em "<strong>Arquivo</strong>" em seguida clique em "<strong>Importação</strong>" e selecione os arquivos que fizemos o download anteriormente;
+                </p>
+                <p className="m-0">
+                  - Em seguida clique em "<strong>Importar</strong>".
+                </p>
+                <br/>
+                <p className="m-0">
+                  <strong>Obs:</strong> Se o "<strong>System Scheduler</strong>" não estiver instalado, clique <strong><a href="https://drive.google.com/file/d/1vdlH-6467C87bD2r9QVsSfsYZWLKDQbi/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download;
+                </p>
+                <p className="m-0">
+                  - Ao finalizar o download, execute o arquivo "<strong>SystemScheduler</strong>", na tela que abrir, escolha o diretório da extração em "<strong>C:\digital\data</strong>" e clique no botão "<strong>Extract</strong>";
+                </p>
+                <p className="m-0">
+                  - Ao finalizar a extração, acesse a pasta "<strong>C:\digital\data\SystemScheduler</strong>", execute e crie um atalho do executável "<strong>WScheduler.exe</strong>" (<code>selecione o executável e clique com o botão direito do mouse, em seguida clique na opção "<strong>Criar atalho</strong>"</code>);
+                </p>
+                <p className="m-0">
+                  - Mova esse "Atalho" para a pasta "<strong>inicializar</strong>" do Windows (<code>Para acessar a pasta "<strong>inicializar</strong>" do Windows. Na barra de endereço da pasta, digite "<strong>inicializar</strong>" e tecle "<strong>Enter</strong>"</code>).
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao01.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  5. Banco de dados SGA
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Exportando Banco de Dados SGA
+                </h3>
+                <p className="m-0">
+                  - Acesse a área "<strong>administrativa do SGA</strong>" da unidade que foi cadastrada no SGA Portal;
+                </p>
+                <p className="m-0">
+                  - Acesse o menu "<strong>Redes</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, clique no botão "<strong>SGA Portal</strong>";
+                </p>
+                <p className="m-0">
+                  - Clique no botão "<strong>Cadastrar</strong>";
+                </p>
+                <p className="m-0">
+                  - Preenche os campos "<strong>Cadastrar</strong>";
+                </p>
+                <p className="m-0">
+                  - Em seguida clique em "<strong>Salvar</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao04.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
