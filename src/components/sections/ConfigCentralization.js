@@ -301,22 +301,22 @@ const FeaturesSplit = ({
                   Exportando Banco de Dados SGA
                 </h3>
                 <p className="m-0">
-                  - Acesse a área "<strong>administrativa do SGA</strong>" da unidade que foi cadastrada no SGA Portal;
+                  - Acesse o "<strong>PhpMyAdmin</strong>" do "<strong>SGA</strong>";
                 </p>
                 <p className="m-0">
-                  - Acesse o menu "<strong>Redes</strong>";
+                  - No menu superior, clique no botão "<strong>Exportar</strong>";
                 </p>
                 <p className="m-0">
-                  - Na tela que abrir, clique no botão "<strong>SGA Portal</strong>";
+                  - Em seguida clique em "<strong>Personalizado</strong>";
                 </p>
                 <p className="m-0">
-                  - Clique no botão "<strong>Cadastrar</strong>";
+                  - Depois selecione o banco de dados "<strong>SGA</strong>";
                 </p>
                 <p className="m-0">
-                  - Preenche os campos "<strong>Cadastrar</strong>";
+                  - Desmarque a opção "<strong>Add create TRIGGER statement</strong>";
                 </p>
                 <p className="m-0">
-                  - Em seguida clique em "<strong>Salvar</strong>".
+                  - Logo em seguida clique em "<strong>Executar</strong>".
                 </p>
               </div>
               <div className={
@@ -326,7 +326,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/centralizacao04.png')}
+                  src={require('./../../assets/images/centralizacao07.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
