@@ -253,20 +253,20 @@ const FeaturesSplit = ({
                   Configurando a zincronização
                 </h3>
                 <p className="m-0">
-                  - Clique <strong><a href="https://drive.google.com/file/d/1vdlH-6467C87bD2r9QVsSfsYZWLKDQbi/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download dos arquivos de importação das configurações de sincronização;
+                  - Clique <strong><a href="https://drive.google.com/file/d/1Y2SxmJwyZe7Vg2ly4NKp_PcarxANDtrP/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download dos arquivos de importação das configurações de sincronização;
                 </p>
                 <p className="m-0">
-                  - Na Área de Notificação (ao lado do relógio) - se você não vê o ícone, clique em "<strong>Show hidden iconse</strong>" mova o ícone ao lado do relógio e clique com o botão direito / esquerdo do mouse no ícone do "<strong>System Scheduler</strong>" (<code>ícone de um relógio</code>);
+                  - Ao finalizar o download, execute o arquivo "<strong>Events.exe</strong>" e clique em "<strong>Extract</strong>";
                 </p>
                 <p className="m-0">
-                  - Na tela que abrir, no menu superior, clique em "<strong>Arquivo</strong>" em seguida clique em "<strong>Importação</strong>" e selecione os arquivos que fizemos o download anteriormente;
+                  - Ao finalizar a extração, acesse a pasta "<strong>Events</strong>" e copie os arquivos que contém nela;
                 </p>
                 <p className="m-0">
-                  - Em seguida clique em "<strong>Importar</strong>".
+                  - Acesse a pasta "<strong>C:\digital\data\SystemScheduler\Events</strong>" e cole os arquivos copiados anteriomente.
                 </p>
                 <br/>
                 <p className="m-0">
-                  <strong>Obs:</strong> Se o "<strong>System Scheduler</strong>" não estiver instalado, clique <strong><a href="https://drive.google.com/file/d/1vdlH-6467C87bD2r9QVsSfsYZWLKDQbi/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download;
+                  <strong>Obs:</strong> Se o "<strong>System Scheduler</strong>" não estiver instalado, clique <strong><a href="https://drive.google.com/file/d/1OJxF1LIPvB9F-kjHpG3YR7R278PgJ2Kw/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download;
                 </p>
                 <p className="m-0">
                   - Ao finalizar o download, execute o arquivo "<strong>SystemScheduler</strong>", na tela que abrir, escolha o diretório da extração em "<strong>C:\digital\data</strong>" e clique no botão "<strong>Extract</strong>";
