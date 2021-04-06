@@ -206,7 +206,7 @@ const FeaturesSplit = ({
                 </h3>
                 <br/>
                 <p className="m-0">
-                  - Esse erro acontece quando digita algum comando do PM2.
+                  Esse erro acontece quando digita algum comando do PM2.
                 </p>
                 <br/>
                 <p className="m-0">
@@ -236,6 +236,40 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/erro04.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  4. SGA Administrativo
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Não foi possível comunicar com o servidor de relatórios
+                </h3>
+                <br/>
+                <p className="m-0">
+                  Esse erro acontece quando vai cadastrar o SGA Portal no SGA Administrativo.
+                </p>
+                <br/>
+                <p className="m-0">
+                  - Verifique o edereço "<strong>IP</strong>" digitado se confere com o endereço do "<strong>SGA Portal</strong>";
+                </p>
+                <p className="m-0">
+                  - Verifique se a "<strong>Chave</strong>" digitada confere com essa unidade cadastrada no "<strong>SGA Portal</strong>".
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/erro05.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />

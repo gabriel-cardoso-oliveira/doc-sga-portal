@@ -215,19 +215,19 @@ const FeaturesSplit = ({
                   - Acesse a área "<strong>administrativa do SGA</strong>" da unidade que foi cadastrada no SGA Portal;
                 </p>
                 <p className="m-0">
-                  - Acesse o menu "<strong>Redes</strong>";
+                  - Acesse no menu superior a opção "<strong>Rede Local</strong>";
                 </p>
                 <p className="m-0">
-                  - Na tela que abrir, clique no botão "<strong>SGA Portal</strong>";
+                  - Na tela que abrir no canto superior direito, clique no botão "<strong>Servidor de Ralatórios</strong>";
                 </p>
                 <p className="m-0">
-                  - Clique no botão "<strong>Cadastrar</strong>";
+                  - Clique no botão "<strong>Adicionar</strong>";
                 </p>
                 <p className="m-0">
-                  - Preenche os campos "<strong>Cadastrar</strong>";
+                  - Preenche os campos "<strong>IP</strong>", "<strong>Terminal</strong>" e "<strong>Chave</strong>"<code>(O campo Chave é a chave que foi gerada no "<strong>SGA Portal</strong>", no cadastro dessa "<strong>unidade</strong>")</code>;
                 </p>
                 <p className="m-0">
-                  - Em seguida clique em "<strong>Salvar</strong>".
+                  - Em seguida clique em "<strong>Verificar IP</strong>".
                 </p>
               </div>
               <div className={
@@ -237,7 +237,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/centralizacao04.png')}
+                  src={require('./../../assets/images/centralizacao05.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -285,7 +285,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/centralizacao01.png')}
+                  src={require('./../../assets/images/centralizacao06.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
