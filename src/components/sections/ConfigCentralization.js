@@ -333,6 +333,44 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  6. SGA Portal
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Importando Banco de Dados no SGA Portal
+                </h3>
+                <p className="m-0">
+                  - Abra o SGA Portal, no menu lateral clique na opção "<strong>Unidades</strong>";
+                </p>
+                <p className="m-0">
+                  - Na unidade configurada anteriomente, clique no botão "<strong>Editar</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, clique no campo "<strong>Importar Banco de Dados</strong>";
+                </p>
+                <p className="m-0">
+                  - Na tela que abrir, selecione o "<strong>Banco de Dados</strong>" que exportamos dessa "<strong>Unidade</strong>" anteriormente;
+                </p>
+                <p className="m-0">
+                  - Aguarde a finalização da importação e faça o mesmo processo com as demais unidades <code>(Caso precise cadastrar mais unidades)</code>.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/centralizacao08.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
