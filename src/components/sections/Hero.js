@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-// import Image from '../elements/Image';
+import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
 const propTypes = {
@@ -27,10 +27,10 @@ const Hero = ({
 
   const [videoModalActive, setVideomodalactive] = useState(false);
 
-  // const openModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(true);
-  // }
+  const openModal = (e) => {
+    e.preventDefault();
+    setVideomodalactive(true);
+  }
 
   const closeModal = (e) => {
     e.preventDefault();
@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Nesse guia iremos mostrar o passo a passo para preparar o Ambiente SGA Portal em sistemas Windows. Você irá aprender também como executar. Além disso, falaremos também sobre os erros mais comuns relacionados e como solucioná-los.
+                Nesse guia iremos mostrar o passo a passo para preparar o Ambiente SGA Portal em sistemas Windows. Você irá aprender também como executar. Além disso, falaremos também sobre os erros mais comuns relacionados e como solucioná-los. <strong>Obs:</strong> Esse guia foi criado no <strong>Windows 10 Home 32 Bits</strong>.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -91,26 +91,27 @@ const Hero = ({
               </div>
             </div>
           </div>
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://player.vimeo.com/video/533989531"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/image-video.png')}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={504}
+              />
             </a>
-          </div> */}
+          </div>
           <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://player.vimeo.com/video/533989531"
             videoTag="iframe" />
         </div>
       </div>
