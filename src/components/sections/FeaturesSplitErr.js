@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
@@ -80,7 +81,7 @@ const FeaturesSplit = ({
                   - Ele acontece porque o "<strong>Visual C++ Redistributable for Visual Studio 2012</strong>" não está instalado no PC;
                 </p>
                 <p className="m-0">
-                  - Para resolver esse erro acessa esté link, e faça o download do executável "<strong>VSU_4\vcredist_x64.exe</strong>" ou "<strong>VSU_4\vcredist_x86.exe</strong>", conforme a versão do Windows;
+                  - Para resolver esse erro clique <strong><a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank">Aqui</a></strong>, e faça o download do executável "<strong>VSU_4\vcredist_x64.exe</strong>" ou "<strong>VSU_4\vcredist_x86.exe</strong>", conforme a versão do Windows;
                 </p>
                 <p className="m-0">
                   Ao finalizar o download, execute o instalado, após a instalação "<strong>Reinicie o PC</strong>" e verifique se o erro persiste.

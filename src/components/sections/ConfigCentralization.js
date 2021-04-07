@@ -71,7 +71,7 @@ const FeaturesSplit = ({
                   1. Configuração
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Configurando a zincronização
+                  Configurando a Sincronização
                 </h3>
                 <p className="m-0">
                   - Clique <strong><a href="https://drive.google.com/file/d/1vdlH-6467C87bD2r9QVsSfsYZWLKDQbi/view?usp=sharing" target="_blank">aqui</a></strong> para baixar o "<strong>System Scheduler</strong>" (<code>programa que configura e ativa o bat da sincronização dos bancos de dados das unidades</code>);
@@ -250,7 +250,7 @@ const FeaturesSplit = ({
                   4.1 Ambiente SGA
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Configurando a zincronização
+                  Configurando a sincronização
                 </h3>
                 <p className="m-0">
                   - Clique <strong><a href="https://drive.google.com/file/d/1Y2SxmJwyZe7Vg2ly4NKp_PcarxANDtrP/view?usp=sharing" target="_blank">aqui</a></strong> para fazer o download dos arquivos de importação das configurações de sincronização;
