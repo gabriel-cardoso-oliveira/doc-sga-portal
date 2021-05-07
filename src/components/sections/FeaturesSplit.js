@@ -910,7 +910,7 @@ const FeaturesSplit = ({
                   - Clique na aba "<strong>Centralização</strong>";
                 </p>
                 <p className="m-0">
-                  - Acesse a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\httpdserver\apache2425vc11x86x[<i>números que está na sua pasta</i>]\bin</strong>";
+                  - Acesse a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\dbserver\mysql5717x86x[<i>números que está na sua pasta</i>]\bin</strong>";
                 </p>
                 <p className="m-0">
                   - Copie o "<strong>endereço</strong>" da pasta e cole no campo, em seguida clique em salvar (como no exemplo).
