@@ -671,14 +671,26 @@ const FeaturesSplit = ({
                   Iniciando o MySQL
                 </h3>
                 <p className="m-0">
-                  - Na página inicial da "<strong>Dashboard</strong>" do EasyPHP-Devserver-17;
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-wwww\api\bats</strong>";
                 </p>
                 <p className="m-0">
-                  - Clique no botão "<strong>Start</strong>" do "<strong>DATABASE SERVER</strong>".
+                  - Edite o bat "<strong>iniciar-mysql.bat</strong>";
+                </p>
+                <p className="m-0">
+                  - Na linha 2, altere o caminho da pasta do mysql para "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\dbserver\mysql5717x86x[<i>números que está na sua pasta</i>]\bin</strong>";
+                </p>
+                <p className="m-0">
+                  - Execute o bat "<strong>mysql e query.bat</strong>";
+                </p>
+                <p className="m-0">
+                  - Ao finalizar crie o atalho do bat "<strong>mysql e query.bat</strong>" (selecione o executável e clique com o botão direito do mouse, em seguida clique na opção "Criar atalho");
+                </p>
+                <p className="m-0">
+                  - Mova esse "Atalho" para a pasta "<strong>inicializar</strong>" do Windows.
                 </p>
                 <br/>
                 <p className="m-0">
-                  <strong>Obs:</strong> Se o "<strong>APACHE</strong>" ou o "<strong>MYSQL</strong>" não iniciar, vai até o modulo "Erros mais comuns".
+                  <strong>Obs:</strong> Para acessar a pasta "<strong>inicializar</strong>" do Windows. Na barra de endereço da pasta, digite "<strong>inicializar</strong>" e tecle "<strong>Enter</strong>".
                 </p>
               </div>
               <div className={
@@ -730,7 +742,7 @@ const FeaturesSplit = ({
                       padding: 10
                     }}
                     >
-                      Action: run; FileName: "eds-dashboard/eds-dashboard.exe"; WorkingDir: "eds-dashboard"; Parameters: " servers_start.php allservers"; ShowCmd: hidden; Flags: waituntilterminated;
+                      Action: run; FileName: "eds-dashboard/eds-dashboard.exe"; WorkingDir: "eds-dashboard"; Parameters: " servers_start.php httpserver"; ShowCmd: hidden; Flags: waituntilterminated;
                       <br/>Action: shellexecute; FileName: "http://127.0.0.1:8000/portal"
                     </code>
                   </strong>
