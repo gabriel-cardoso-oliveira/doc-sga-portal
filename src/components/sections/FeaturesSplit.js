@@ -665,6 +665,41 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  7.1 Ambiente
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Configurando o MySQL
+                </h3>
+                <p className="m-0">
+                  - Abra a pasta "<strong>C:\digital\data\EasyPHP-Devserver-17\eds-binaries\dbserver\mysql5717x86x[<i>números que está na sua pasta</i>]</strong>";
+                </p>
+                <p className="m-0">
+                  - Edite o arquivo "<strong>my.ini</strong>";
+                </p>
+                <p className="m-0">
+                  - Na linha "<strong>bind-address	= 127.0.0.1</strong>", altera para "<strong>bind-address	= 0.0.0.0</strong>";
+                </p>
+                <p className="m-0">
+                  - Ao finalizar, salve o arquivo.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dependencias26.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   7.2 Ambiente
                 </div>
                 <h3 className="mt-0 mb-12">
